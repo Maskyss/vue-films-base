@@ -7,7 +7,7 @@
         :template="getRowTemplate"
       ></kendo-grid-column>
       <kendo-grid-column
-        :field="'release_date ? release_date : first_air_date'"
+        :field="'release_date ? release_date : first_air_date?first_air_date:none'"
         :title="'Date'"
         :width="120"
       ></kendo-grid-column>

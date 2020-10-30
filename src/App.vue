@@ -27,6 +27,9 @@ body {
 .k-grid-header .k-header {
   font-weight: bold !important;
 }
+.k-grid{
+  max-width: 600px;
+}
 #app {
   font-family: Helvetica, Arial, sans-serif;
 }

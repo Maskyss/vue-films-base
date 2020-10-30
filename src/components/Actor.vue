@@ -11,10 +11,10 @@
       <h2>Movie List</h2>
       <MovieSimilar :data="movieList" />
     </div>
-    <!-- <div v-if="showtvList_length">
+    <div v-if="showtvList_length">
       <h2>TV List</h2>
       <MovieSimilar :data="showtvList" />
-    </div> -->
+    </div>
   </div>
 </template>
 
